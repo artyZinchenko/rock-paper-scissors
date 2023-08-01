@@ -1,0 +1,25 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./**/*.js",
+    "try3": "node index rock paper spok",
+    "try7": "node index rock paper lizard scissors spok spaceship earth",
+    "try1": "node index",
+    "try4": "node index rock paper scissors spok",
+    "try5": "node index rock paper lizard scissors spok"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}
